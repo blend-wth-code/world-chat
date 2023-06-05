@@ -1,0 +1,46 @@
+.vh-50 {
+  height: 50vh;
+}
+
+.vh-75 {
+  height: 75vh;
+}
+.custom-btn {
+  background-color: black !important;
+  box-shadow: none;
+  border: none !important;
+  --bs-btn-active-shadow: none !important;
+  --bs-btn-focus-shadow-rgb: none;
+}
+.chat-container {
+  height: calc(100vh - 60px);
+}
+.chat-messages {
+  height: calc(100vh - 130px) !important;
+}
+h6 {
+  font-size: 0.7em;
+}
+.form-control:focus {
+  border-color: rgb(62, 62, 62);
+  box-shadow: 0 0 0 0.25rem rgba(76, 76, 76, 0.25);
+}
+.selectedFriend {
+  background-color: #e5e5e5;
+}
+.friend-list {
+  height: calc(100vh - 60px) !important;
+}
+.empty-message {
+  height: calc(100vh - 130px) !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.green-circle {
+  width: 8px;
+  height: 8px;
+  background-color: green;
+  border-radius: 50%;
+  display: inline-block;
+}
